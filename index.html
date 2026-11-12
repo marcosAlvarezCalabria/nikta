@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nitka Alterations</title>
+<script>
+  (function () {
+    var mobile = window.matchMedia("(max-width: 820px)").matches ||
+      /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+    location.replace((mobile ? "/Nitka%20App.dc.html" : "/Nitka%20Desktop.dc.html") + location.search + location.hash);
+  })();
+</script>
+<style>body{margin:0;background:#0b1411;color:#ece0c8;font-family:sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center}a{color:#e3c48f}</style>
+</head>
+<body>
+<noscript><p><a href="/Nitka%20Desktop.dc.html">Nitka Alterations</a> · <a href="/Nitka%20App.dc.html">Mobile</a></p></noscript>
+</body>
+</html>

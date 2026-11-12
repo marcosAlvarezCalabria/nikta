@@ -1,0 +1,13 @@
+[build]
+  publish = "."
+
+# Short links for the two versions of the site
+[[redirects]]
+  from = "/app"
+  to = "/Nitka%20App.dc.html"
+  status = 302
+
+[[redirects]]
+  from = "/desktop"
+  to = "/Nitka%20Desktop.dc.html"
+  status = 302
